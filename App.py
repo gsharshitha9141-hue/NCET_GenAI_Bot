@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("SugnyanAI Context Generator",layout="wide")
 st.title("SugnyanAI-Context Generator")
-st.image("Screenshot_20241027_201934%5B1%5D.jpg")
+st.image("Screenshot_20241027_201934[1].jpg")
 
 client=Groq(api_key=st.secrets["GROQ_API_KEY"])
 product=st.text_input("Product")
